@@ -2,8 +2,7 @@
 .game {
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
-    font-style: normal;
-    font-size: 1vw;
+    font-style: normal;   
 }
 
 .unselectable {
@@ -20,7 +19,7 @@ Source - https://stackoverflow.com/a
 Posted by Austen Holland, modified by community. See post 'Timeline' for change history
 Retrieved 2025-11-29, License - CC BY-SA 4.0
 */
-.rainbow_text_animated:hover {
+.rainbow_text_animated {
     background: linear-gradient(to right,  #00ff00, #ff3399, #ffbc2d);
     -webkit-background-clip: text;
     background-clip: text;
