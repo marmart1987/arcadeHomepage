@@ -1,0 +1,9 @@
+body {
+    background: #004aeb;
+    background: linear-gradient(180deg, rgba(0, 74, 235, 1) 0%, rgba(0, 72, 255, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    height: 100%;
+    margin: 0;
+}

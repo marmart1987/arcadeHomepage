@@ -1,0 +1,40 @@
+.ps2p,
+.game {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1vw;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+/*
+Source - https://stackoverflow.com/a
+Posted by Austen Holland, modified by community. See post 'Timeline' for change history
+Retrieved 2025-11-29, License - CC BY-SA 4.0
+*/
+.rainbow_text_animated:hover {
+    background: linear-gradient(to right,  #00ff00, #ff3399, #ffbc2d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 1000% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
