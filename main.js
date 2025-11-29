@@ -4,7 +4,7 @@ function checkSize (){
     }
     if(aspectRatioValid()) {
         try {
-        document.body.innerHTML="Please resize the window. Width / height is " + window.innerWidth/window.innerHeight + " but should be greater than 1.4 and lesser than 2.6"
+        document.body.innerHTML="Please resize the window. Width / height is " + (window.innerWidth/window.innerHeight).toPrecision(4) + ", but it should be greater than 1.4 and lesser than 2.6"
         } catch{}
 
         function checkFlag() {
