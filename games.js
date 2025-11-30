@@ -1,6 +1,6 @@
 const games = [
-    {title:"Pacman", thumbnail: "pacman.jpg", thumbnailScale: 1.5, url: "https://pacman.com"},
-    {title: "Snake", thumbnail: "snake.jpg", thumbnailScale: 0.88, url: "https://snake-game.io/"}
+    {title:"Pacman", thumbnail: "pacman.jpg", thumbnailScale: 1.5, url: "/games/pacman.html"},
+    {title: "Snake", thumbnail: "snake.jpg", thumbnailScale: 0.88, url: "https://example.com"}
 ]
 
 const gameElements = document.getElementsByClassName('game') 
