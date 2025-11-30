@@ -1,5 +1,5 @@
 const games = [
-    {title:"Pacman", thumbnail: "pacman.jpg", thumbnailScale: 1.5, url: "/games/pacman.html"},
+    {title:"Pacman", thumbnail: "pacman.jpg", thumbnailScale: 1.5, url: "/games/pacman/"},
     {title: "Snake", thumbnail: "snake.jpg", thumbnailScale: 0.88, url: "https://example.com"}
 ]
 
