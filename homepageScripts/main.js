@@ -1,22 +1,22 @@
-function checkSize (){
+function checkSize() {
     const aspectRatioValid = () => {
-        return Math.abs(window.innerWidth/window.innerHeight - 2) > 0.6
+        return Math.abs(window.innerWidth / window.innerHeight - 2) > 0.7
     }
-    if(aspectRatioValid()) {
+    if (aspectRatioValid()) {
         try {
-        document.body.innerHTML="Please resize the window. Width / height is " + (window.innerWidth/window.innerHeight).toPrecision(4) + ", but it should be greater than 1.4 and lesser than 2.6"
-        } catch{}
+            document.body.innerHTML = "<div class=ps2p>Please resize the window. Width / height is " + (window.innerWidth / window.innerHeight).toPrecision(4) + ", but it should be greater than 1.3 and lesser than 2.7 </div>"
+        } catch (e) { console.warn(e) }
 
         function checkFlag() {
-            if(aspectRatioValid()) {
-               window.setTimeout(checkFlag, 100); 
+            if (aspectRatioValid()) {
+                window.setTimeout(checkFlag, 100);
             } else {
-              window.location.reload();
+                window.location.reload();
             }
         }
         checkFlag();
-        
+
     }
 }
 window.onload = checkSize
-window.onresize = checkSize
+// window.onresize = checkSize

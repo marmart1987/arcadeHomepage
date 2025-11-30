@@ -2,15 +2,16 @@
     border: 0.4vw ridge darkgoldenrod;
     background: #33b8ab;
     background-position: center;
-    background-size: 80%;    
+    background-size: 80%;
     text-shadow:
         0 0 0.25vw #0ff,
         0 0 0.5vw #0ff,
         /* 0 0 0.75vw #0ff, */
         0.1vw 0.1vw 0 #000000;
-    color:rgb(222, 222, 19);
+    color: rgb(222, 222, 19);
     font-size: 1.8vw;
 }
+
 .game:hover {
     box-shadow: 0.1vw 0.2vw 0.2vw 0.4vw #043b3f6b;
 }

@@ -3,8 +3,10 @@
     height: 80%;
     margin: auto;
     margin-bottom: 5vh;
+    padding-top: 6vh;
 }
-.game {   
+
+.game {
     margin-right: 4vw;
     margin-bottom: 5vh;
     width: 17vw;
@@ -14,5 +16,10 @@
     cursor: pointer;
 }
 
-#games tr td:last-child button { margin-right: 0; }
-#games tr:last-child td button { margin-bottom: 0; }
+#games tr td:last-child button {
+    margin-right: 0;
+}
+
+#games tr:last-child td button {
+    margin-bottom: 0;
+}
