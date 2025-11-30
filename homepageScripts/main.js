@@ -19,4 +19,4 @@ function checkSize() {
     }
 }
 window.onload = checkSize
-// window.onresize = checkSize
+window.onresize = checkSize
