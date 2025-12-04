@@ -1,6 +1,10 @@
+@font-face {
+  font-family: ps2p; /* set name */
+  src: url(../assets/Press_Start_2P/PressStart2P-Regular.ttf); /* url of the font */
+}
 .ps2p,
 .game {
-    font-family: "Press Start 2P", system-ui;
+    font-family: ps2p, fantasy;/*"Press Start 2P", system-ui;*/
     font-weight: 200;
     font-style: normal;
 }
